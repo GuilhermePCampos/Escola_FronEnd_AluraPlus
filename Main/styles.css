@@ -5,6 +5,7 @@
   --cor-de-fundo: #00030C;
   --fonte-principal: 'Inter';
   --botao-azul-efeito: #3c92fa;
+  --font-size-padrao: 20px;
 }
 
 body {
@@ -18,9 +19,9 @@ body {
 .principal {
   background-image: url("img/Background.png");
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .container {
-  height: 100vh;
-  /* background-color: red; */
+  height: 100vh;  
 }
