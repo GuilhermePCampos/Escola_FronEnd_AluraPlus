@@ -1,4 +1,5 @@
-:root {
+:root { 
+  /* Varivaeis */
   --branco-principal: #FFFFFF;
   --cinza-secundario: #C0C0C0;
   --botao-azul: #167BF7;
@@ -18,9 +19,21 @@ body {
 .principal {
   background-image: url("img/Background.png");
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .container {
   height: 100vh;
-  /* background-color: red; */
 }
+
+.container__botao {
+  background-color: var(--botao-azul);
+  padding: 1em;
+  color: var(--branco-principal);
+  text-decoration: none;
+}
+
+.container__botao {
+
+}
+
