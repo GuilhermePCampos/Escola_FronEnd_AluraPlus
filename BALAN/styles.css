@@ -53,6 +53,19 @@ body {
   color: var(--cinza-secundario);
 }
 
+.container__caixa {
+  margin: 0 6em;
+}
 
+.container__imagem {
+  margin: 1em 0 2em 0;
+}
 
+.principal {
+  align-items: center;
+  text-align: center;
+}
 
+.container__botao {
+    margin-bottom: 1em;
+} 
