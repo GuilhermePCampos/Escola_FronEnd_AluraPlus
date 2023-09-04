@@ -1,7 +1,7 @@
 :root {
   --branco-principal: #FFFFFF;
   --cinza-secundario: #C0C0C0;
-  --botao: #04f248;
+  --botao: #167BF7;
   --cor-de-fundo: #0c0007;
   --fonte-principal: 'Inter';
   --botao-azul-efeito: #3c92fa;
@@ -23,6 +23,8 @@ body {
 
 .container {
   height: 100vh;
+  display: grid;  
+  grid-template-columns: 50% 50%;
 }
 
 .container__botao {
@@ -36,4 +38,9 @@ body {
 
 strong {
   color: red;
+}
+
+.botao_secuntario  {
+  background-color: transparent;
+  border: 2px solid var(--botao);  
 }
