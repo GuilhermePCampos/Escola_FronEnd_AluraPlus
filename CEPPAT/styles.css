@@ -38,9 +38,10 @@ body {
 
 strong {
   color: red;
+  font-weight: 700;  
 }
 
-.botao_secuntario  {
+.botao_secundario  {
   background-color: transparent;
   border: 2px solid var(--botao);  
 }
