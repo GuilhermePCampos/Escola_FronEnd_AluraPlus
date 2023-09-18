@@ -76,18 +76,15 @@ strong {
     margin: 1em 0 0 0;
   }
 
+  .secundario {
+    align-items: center;
+    margin: 0 10em;
+  }
   
-
-/* .principal {
-  align-items: center;
-  text-align: center;
-}
-
-.container__imagem {
-  margin: 1em 0 2em 0;
-}
-
- */
+  .secundario__imagem {
+    width: 80%;
+  }
+  
 
 
 

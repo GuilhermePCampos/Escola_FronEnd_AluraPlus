@@ -2,9 +2,9 @@
   /* Varivaeis */
   --branco-principal: #FFFFFF;
   --cinza-secundario: #C0C0C0;
-  --botao-azul: #167BF7;
+  --botao-azul: #f716e1;
   --cor-de-fundo: #00030C;
-  --fonte-principal: 'Inter', sans-serif;    
+  --fonte-principal: 'Poppins', sans-serif;    
   --botao-azul-efeito: #3c92fa;
 }
 
@@ -67,5 +67,14 @@ body {
 }
 
 .container__botao {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 } 
+
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.secundario__imagem {
+  width: 80%;
+}
