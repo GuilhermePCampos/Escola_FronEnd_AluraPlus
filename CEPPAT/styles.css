@@ -85,7 +85,23 @@ strong {
     width: 80%;
   }
   
+  .descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+  }
 
+  .descricao__texto {
+    color: var(--cinza-secundario);
+    line-height: 125%;
+  }
+
+  .container__descricao {
+    padding: 2em;
+  }
+    
+  
 
 
 

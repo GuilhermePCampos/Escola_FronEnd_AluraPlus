@@ -72,9 +72,14 @@ body {
 
 .secundario {
   align-items: center;
-  margin: 0 10em;
+  margin: 0 4em;
 }
 
 .secundario__imagem {
   width: 80%;
+}
+
+.secundario__botao {
+  display: inline-block;
+  margin-top: 1em;
 }
