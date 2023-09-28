@@ -93,7 +93,7 @@ body {
 
 .descricao__texto {
   color: var(--cinza-secundario);
-  line-height: 150%;
+  line-height: 125%;
 }
 
 .titulo2 {
