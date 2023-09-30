@@ -99,3 +99,23 @@ body {
 .titulo2 {
   color: red;
 }
+
+.dispositivos {
+  padding: 30px 0;  
+  text-align: center;
+}
+
+.dispositivos__lista {
+  display: flex;
+  justify-content: center;
+}
+
+.dispositivos__lista li {
+  text-align: center;
+  font-size: 28px;
+  color: var(--fonte-principal);
+}
+
+.dispositivos__titulo {
+  font-size: 42px;
+}
